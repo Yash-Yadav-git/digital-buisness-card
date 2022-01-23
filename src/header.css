@@ -10,10 +10,10 @@ body {
   height: 700px;
   width: 317px;
   border-radius: 10px;
-  outline: 2px solid red;
+  background-color: #161619;
 }
 
-img {
+.header-image {
   width: 100%;
   height: 300px;
   border-radius: 10px;
@@ -25,16 +25,13 @@ img {
   justify-content: center;
   align-items: flex-start;
   font-family: Inter, sans-serif;
-  outline: 2px solid green;
 }
 
 .intro {
-  outline: 2px solid whitesmoke;
 }
 
 .name {
   margin-top: 16px;
-  outline: 2px solid steelblue;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -45,7 +42,6 @@ img {
   margin-bottom: 0px;
 }
 .designation {
-  outline: 2px solid teal;
   margin-top: 6px;
   margin-bottom: 0px;
   font-size: 12.8px;
@@ -64,4 +60,119 @@ img {
   margin-top: 8.5px;
   color: #f5f5f5;
   margin-bottom: 0px;
+}
+
+/* 
+.buttons-wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  outline: 2px solid rgb(173, 173, 173);
+
+  background-color: indigo;
+  height: 40px;
+}
+
+.buttons {
+  outline: 2px solid green;
+  width: 100%;
+} */
+
+.buttons {
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.email__button {
+  display: inline-flex;
+  height: 34px;
+  width: 115px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.email__button > span {
+  padding: 10px;
+}
+
+.linkedin__button {
+  display: flex;
+  height: 34px;
+  width: 115px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #5093e2;
+}
+
+.linkedin__button > span {
+  padding: 10px;
+}
+
+.About__Interests {
+  width: 247px;
+  height: 201px;
+  margin-left: 22px;
+}
+
+.about {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+  margin-bottom: 0px;
+}
+
+.about__description {
+  margin-top: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #dcdcdc;
+}
+
+.Interests {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #f5f5f5;
+  margin-bottom: 0;
+}
+
+.Interests__description {
+  margin-top: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+.footer-wrapper {
+  background-color: #161619;
+  width: 317px;
+  height: 38px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
 }
